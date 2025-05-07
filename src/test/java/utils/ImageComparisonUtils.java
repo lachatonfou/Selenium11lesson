@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
-public class ImageComparisionUtils {
+public class ImageComparisonUtils {
     public static boolean compareImages(File file1, File file2) throws IOException {
         BufferedImage img1 = ImageIO.read(file1);
         BufferedImage img2 = ImageIO.read(file2);
